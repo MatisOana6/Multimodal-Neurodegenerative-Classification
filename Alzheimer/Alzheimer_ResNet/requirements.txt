@@ -1,0 +1,6 @@
+pydicom
+numpy
+opencv-python
+Pillow
+scikit-image
+py-real-esrgan
