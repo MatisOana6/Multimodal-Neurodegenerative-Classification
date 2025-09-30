@@ -1,0 +1,127 @@
+.loginWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 6vh;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f5f9ff, #e6eef8);
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;
+}
+
+
+.loginContainer {
+    background-color: #ffffff;
+    padding: 2.5rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+.loginContainer h2 {
+    font-size: 1.75rem;
+    color: #002e5b;
+    margin-bottom: 0.3rem;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input {
+    padding: 0.65rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ccd6e0;
+    background-color: #f9fbfd;
+    font-size: 0.90rem;
+    color: #333;
+    transition: border 0.2s, box-shadow 0.2s;
+    outline: none;
+}
+
+
+.input:focus {
+    border-color: #007acc;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+
+.button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 0.55rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+    width: fit-content;
+    min-width: 120px;
+}
+
+
+.button:hover {
+    background-color: #005fa3;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: -0.5rem;
+}
+
+.registerPrompt {
+    margin-top: 1.6rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.registerLink {
+    color: #007acc;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.registerLink:hover {
+    color: #005fa3;
+}
+
+
+@media (max-width: 500px) {
+    .loginContainer {
+        padding: 2rem;
+        border-radius: 12px;
+    }
+
+    .loginContainer h2 {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    .input {
+        font-size: 0.9rem;
+        padding: 0.6rem 0.85rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+}

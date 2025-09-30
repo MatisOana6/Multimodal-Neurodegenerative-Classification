@@ -1,0 +1,37 @@
+.featuresSection {
+    background-color: white;
+    padding: 4rem 6rem;
+    text-align: center;
+}
+
+.featuresSection h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #002e5b;
+}
+
+.featuresGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.featureCard {
+    background-color: #f5f9ff;
+    border-radius: 12px;
+    padding: 2rem;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 2.5rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+}

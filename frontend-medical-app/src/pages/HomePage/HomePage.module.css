@@ -1,0 +1,183 @@
+.homepageContainer {
+    font-family: 'Poppins', sans-serif;
+    color: #002e5b;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.videoBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+.contentWrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.videoOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(1px);
+}
+
+
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+    flex-wrap: wrap;
+}
+
+.heroSpacer {
+    flex: 1;
+
+}
+
+
+.heroText {
+    max-width: 600px;
+}
+
+.heroText h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #002e5b;
+}
+
+.heroText p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.ctaButton {
+    background-color: #007acc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.ctaButton:hover {
+    background-color: #005fa3;
+    transform: scale(1.03);
+}
+
+.heroImage img {
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.addPatientButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.addPatientButton:hover {
+    background-color: #1d4ed8;
+}
+
+
+.addPatientButton:hover {
+    background-color: #005fa3;
+}
+
+
+.importantActions {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.secondaryButton {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.6rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.secondaryButton:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+.buttonRow {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ctaButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+}
+
+.ctaButton:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}

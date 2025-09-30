@@ -1,0 +1,37 @@
+.wrapper {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.summaryBox {
+    padding: 16px;
+    background-color: #eef6fb;
+    border-left: 5px solid #2196f3;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.summaryBox p {
+    margin: 6px 0;
+}
+
+.warning {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.chartSection h4 {
+    margin-bottom: 8px;
+}
+
+.chartBox {
+    margin-top: 30px;
+    background: #f8f9fb;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}

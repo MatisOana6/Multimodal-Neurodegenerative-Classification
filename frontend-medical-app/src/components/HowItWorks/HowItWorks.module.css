@@ -1,0 +1,40 @@
+.howSection {
+    padding: 4rem 6rem;
+    background-color: #e6eef8;
+    text-align: center;
+}
+
+.howSection h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #002e5b;
+}
+
+.stepsGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.step {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    flex: 1 1 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.stepNumber {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #007acc;
+    position: absolute;
+    top: -1.2rem;
+    left: -1.2rem;
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

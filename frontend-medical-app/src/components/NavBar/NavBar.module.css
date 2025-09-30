@@ -1,0 +1,53 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #004080;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #004080;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navLink:hover {
+    color: #007acc;
+}
+
+
+
+.logoutBtn:hover {
+    background-color: #c0392b;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #002e5b;
+    text-decoration: none;
+    cursor: pointer;
+}
+

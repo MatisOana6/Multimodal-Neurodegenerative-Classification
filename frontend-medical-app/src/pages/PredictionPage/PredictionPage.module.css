@@ -1,0 +1,111 @@
+.pageLayout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.sideVideo {
+    width: 12vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.mainContent {
+    flex: 1;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+    font-size: 2.2rem;
+    color: #002b55;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 40px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.card {
+    background-color: #d3e3fa;
+    border-radius: 12px;
+    padding: 2rem 1.6rem;
+    width: 400px;
+    height: 170px;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s, box-shadow 0.25s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.1);
+    background-color: #eef5ff;
+}
+
+.card h3 {
+    margin: 1rem 0 0.5rem;
+    color: #003366;
+    font-size: 1.1rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.icon {
+    color: #007acc;
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 1024px) {
+    .pageLayout {
+        flex-direction: column;
+    }
+
+    .sideVideo {
+        display: none;
+    }
+
+    .mainContent {
+        margin: 0;
+    }
+}
