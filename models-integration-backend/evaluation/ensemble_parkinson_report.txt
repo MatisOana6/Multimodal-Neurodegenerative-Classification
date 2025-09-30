@@ -1,0 +1,12 @@
+Accuracy: 99.68%
+
+              precision    recall  f1-score   support
+
+     Control     0.9949    0.9899    0.9924       396
+          PD     0.9988    0.9975    0.9981       809
+   Prodromal     0.9959    0.9986    0.9972       725
+       SWEDD     0.9964    1.0000    0.9982       279
+
+    accuracy                         0.9968      2209
+   macro avg     0.9965    0.9965    0.9965      2209
+weighted avg     0.9968    0.9968    0.9968      2209
