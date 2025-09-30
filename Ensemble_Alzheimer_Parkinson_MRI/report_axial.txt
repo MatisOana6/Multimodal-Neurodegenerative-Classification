@@ -1,0 +1,13 @@
+Ensemble Accuracy: 94.76%
+
+              precision    recall  f1-score   support
+
+          AD     0.9796    0.8936    0.9346       376
+          CN     0.9478    0.9748    0.9611       596
+        EMCI     0.9304    0.9730    0.9512       852
+        LMCI     0.9464    0.9079    0.9268       467
+         MCI     1.0000    0.9583    0.9787        96
+
+    accuracy                         0.9476      2387
+   macro avg     0.9608    0.9415    0.9505      2387
+weighted avg     0.9484    0.9476    0.9474      2387
